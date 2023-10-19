@@ -306,3 +306,88 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+.chan {
+
+  animation: rct 4s infinite linear;
+  background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  font-family: Trebuchet MS;
+
+
+
+
+}
+
+.heading {
+
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170,
+          #08ff3d, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+@keyframes hue {
+  from {
+      filter: hue-rotate(0deg);
+
+  }
+
+  to {
+      filter: hue-rotate(360deg);
+
+      box-shadow: 0 0 170px 3px red;
+  }
+  
+
+}
+.changing-color {
+  margin-left: 40px;
+  padding: 3PX;
+  animation: hue 4s infinite linear;
+  background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  color: #f35626;
+  font-family: Trebuchet MS;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+
+}
+@keyframes rct {
+  from {
+      filter: hue-rotate(0deg);
+
+  }
+
+  to {
+      filter: hue-rotate(360deg);
+
+
+  }
+
+}
+
+
+
+
